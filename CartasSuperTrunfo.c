@@ -37,9 +37,9 @@ int main() {
     printf("E seu PIB é: ");
     scanf("%f", &pib);
     printf("Quantos pontos turisticos tem?: ");
-    scanf("%d", &pontosTuristicos);
+    scanf("%d\n", &pontosTuristicos);
 
-    printf("Cadastre mais uma carta\n");
+    printf("  Cadastre mais uma carta\n");
 
     printf(" Imforme o codigo: ");
     scanf("%s", carta2);
@@ -67,7 +67,7 @@ int main() {
     printf("Estado: %s\n", estado);
     printf("Cidade: %s\n", cidade);
     printf("População: %d\n", população);
-    printf("Area: %.2f\n", area);
+    printf("Area: %.2f\n", area, "km²");
     printf("PIB: %.2f\n", pib);
     printf("Pontos Turisticos: %d\n\n", pontosTuristicos);
 
@@ -77,9 +77,9 @@ int main() {
     printf("Estado: %s\n", estado2);
     printf("Cidade: %s\n", cidade2);
     printf("População: %d\n", população2);
-    printf("Area: %.2f\n", area2);
+    printf("Area: %.2f\n", area2, "km²");
     printf("PIB: %.2f\n", pib2);
-    printf("Pontos Turisticos: %d\n", pontosTuristicos2);
+    printf("Pontos Turisticos: %d\n\n", pontosTuristicos2);
 
     printf("Cartas Cadastradas com Sucesso!!");
 
